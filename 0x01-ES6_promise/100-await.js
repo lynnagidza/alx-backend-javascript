@@ -1,7 +1,7 @@
 const { uploadPhoto, createUser } = require('./utils.js');
 // import { uploadPhoto, createUser } from './utils.js';
 
-async function asyncUploadUser() {
+export default async function asyncUploadUser() {
   try {
     const photoResponse = await uploadPhoto();
     const userResponse = await createUser();
@@ -18,4 +18,4 @@ async function asyncUploadUser() {
   }
 }
 
-export default asyncUploadUser;
+// export default asyncUploadUser;

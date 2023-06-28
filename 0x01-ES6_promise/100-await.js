@@ -1,4 +1,5 @@
-import { uploadPhoto, createUser } from './utils.js';
+const { uploadPhoto, createUser } = require('./utils.js');
+// import { uploadPhoto, createUser } from './utils.js';
 
 async function asyncUploadUser() {
   try {

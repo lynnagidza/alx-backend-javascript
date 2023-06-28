@@ -1,4 +1,4 @@
-import { uploadPhoto, createUser } from './utils.js';
+const { uploadPhoto, createUser } = require('./utils.js');
 
 async function asyncUploadUser() {
   try {
@@ -17,4 +17,4 @@ async function asyncUploadUser() {
   }
 }
 
-export default asyncUploadUser;
+module.exports = asyncUploadUser;

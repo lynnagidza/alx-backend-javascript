@@ -1,6 +1,6 @@
 # alx-backend-javascript
 
-This repository contains projects related to ES6 (ECMAScript 2015) concepts and features. Each project is organized into separate directories.
+This repository contains projects for learning JavaScript and TypeScript. The projects cover various topics and concepts, including: ES6 syntax and features, JavaScript promises, ES6 classes, ES6 data manipulation, and TypeScript.
 
 ## Directories
 
@@ -15,6 +15,14 @@ This repository contains projects related to ES6 (ECMAScript 2015) concepts and 
 ### 0x02-ES6_classes
 
 - Description: This directory focuses on implementing various ES6 classes with different tasks. Each task is implemented in a separate JavaScript file.
+
+### 0x03-ES6_data_manipulation
+
+- Description: This directory focuses on practicing ES6 data manipulation concepts. Each task is implemented in a separate JavaScript file.
+
+### 0x04-TypeScript
+
+- Description: This directory focuses on working with TypeScript and covers various topics and concepts. Each task is implemented in a separate TypeScript file.
 
 ## Usage
 

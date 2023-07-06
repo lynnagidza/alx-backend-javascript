@@ -1,7 +1,7 @@
 export const weakMap = new WeakMap();
 
 export function queryAPI(endpoint) {
-  const endpointKey = JSON.stringify(endpoint);
+  const endpointKey = Object.freeze(endpoint);
 
   if (!weakMap.has(endpointKey)) {
     weakMap.set(endpointKey, 1);

@@ -1,3 +1,3 @@
-function displayMessage(str) {
+export function displayMessage(str) {
   console.log(str);
 }

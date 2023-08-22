@@ -24,6 +24,10 @@ This repository contains projects for learning JavaScript and TypeScript. The pr
 
 - Description: This directory focuses on working with TypeScript and covers various topics and concepts. Each task is implemented in a separate TypeScript file.
 
+### 0x05-Node_JS_basic
+
+- Description: This directory focuses on learning the basics of Node.js. Each task is implemented in a separate JavaScript file.
+
 ## Usage
 
 To use any project in this repository, follow the instructions provided in each respective directory.

@@ -12,6 +12,12 @@ yarn-error.log*
 # Dependency directories
 /node_modules
 */node_modules
+*/*/node_modules/
+
+package-lock.json
+*/package-lock.json
+*/*/package-lock.json
+
 jspm_packages/
 
 # Optional npm cache directory

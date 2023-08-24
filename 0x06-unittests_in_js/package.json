@@ -4,12 +4,14 @@
   "description": "This project is about learning how to write unittests in JS using Mocha, Chai and Sinon.",
   "main": "0-calcul.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-chai": "mocha 'test-chai/**/*.test.js'"
   },
   "keywords": [],
   "author": "Lynn Agidza",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.3.8",
     "mocha": "^10.2.0"
   }
 }

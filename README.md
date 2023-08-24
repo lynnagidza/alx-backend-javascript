@@ -1,36 +1,33 @@
 # alx-backend-javascript
 
-This repository contains projects for learning JavaScript and TypeScript. The projects cover various topics and concepts, including: ES6 syntax and features, JavaScript promises, ES6 classes, ES6 data manipulation, and TypeScript.
+This repository contains projects for learning JavaScript and TypeScript. The projects cover various topics and concepts, including: ES6 syntax and features, JavaScript promises, ES6 classes, ES6 data manipulation, and TypeScript among others.
 
 ## Directories
 
-### 0x00-ES6_basic
+### ES6_basic
+This project focuses on introducing and practicing basic ES6 syntax and features.
 
-- Description: This directory focuses on introducing and practicing basic ES6 syntax and features.
+### ES6_promise
+This project is a curriculum designed to help students learn JavaScript promises, specifically focusing on ES6 Promises. It includes a series of tasks and exercises that cover various aspects of promises and asynchronous programming in JavaScript.
 
-### 0x01-ES6_promise
+### ES6_classes
+This project focuses on implementing various ES6 classes with different tasks. Each task is implemented in a separate JavaScript file.
 
-- Description: This directory is a curriculum designed to help students learn JavaScript promises, specifically focusing on ES6 Promises. It includes a series of tasks and exercises that cover various aspects of promises and asynchronous programming in JavaScript.
+### ES6_data_manipulation
+This project focuses on practicing ES6 data manipulation concepts. Each task is implemented in a separate JavaScript file.
 
-### 0x02-ES6_classes
+### TypeScript
+This project focuses on working with TypeScript and covers various topics and concepts. Each task is implemented in a separate TypeScript file.
 
-- Description: This directory focuses on implementing various ES6 classes with different tasks. Each task is implemented in a separate JavaScript file.
+### Node_JS_basic
+This project focuses on learning the basics of Node.js. Each task is implemented in a separate JavaScript file.
 
-### 0x03-ES6_data_manipulation
-
-- Description: This directory focuses on practicing ES6 data manipulation concepts. Each task is implemented in a separate JavaScript file.
-
-### 0x04-TypeScript
-
-- Description: This directory focuses on working with TypeScript and covers various topics and concepts. Each task is implemented in a separate TypeScript file.
-
-### 0x05-Node_JS_basic
-
-- Description: This directory focuses on learning the basics of Node.js. Each task is implemented in a separate JavaScript file.
+### Unittests in JS
+This project focuses on learning how to write unit tests in JavaScript using the `Mocha` and `Chai` libraries. Each task is implemented in a separate JavaScript file.
 
 ## Usage
 
-To use any project in this repository, follow the instructions provided in each respective directory.
+To use any project in this repository, follow the instructions provided in each respective project.
 
 ## License
 

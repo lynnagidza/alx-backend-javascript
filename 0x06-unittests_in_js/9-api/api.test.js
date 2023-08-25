@@ -46,3 +46,7 @@ describe('Cart Page', () => {
       });
   });
 });
+
+after(() => {
+  app.close();
+});

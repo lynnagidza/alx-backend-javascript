@@ -72,3 +72,7 @@ describe('Login attempts', () => {
       });
   });
 });
+
+after(() => {
+  app.close();
+});

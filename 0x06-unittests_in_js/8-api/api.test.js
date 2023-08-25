@@ -20,3 +20,7 @@ describe('Index page', () => {
     });
   });
 });
+
+after(() => {
+  app.close();
+});

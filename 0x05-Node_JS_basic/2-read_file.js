@@ -3,14 +3,14 @@ const fs = require('fs');
 function countStudents(path) {
   try {
     if (!fs.existsSync(path)) {
-      throw new Error("Cannot load the database");
+      throw new Error('Cannot load the database');
     }
 
     const data = fs.readFileSync(path, 'utf-8');
-    const lines = data.split('\n').filter(line => line.trim() !== ''); // Split lines and remove empty lines
+    const lines = data.split('\n').filter(line => line.trim() !== '');
 
     if (lines.length === 0) {
-      throw new Error("Cannot load the database");
+      throw new Error('Cannot load the database');
     }
 
     const students = {
@@ -22,7 +22,7 @@ function countStudents(path) {
       const [firstName, lastName, age, field] = line.split(',').map(value => value.trim());
 
       if (field === 'field' || !firstName) {
-        return; // Skip the header and empty lines
+        return;
       }
 
       if (students[field]) {
@@ -37,7 +37,9 @@ function countStudents(path) {
     console.log(`Number of students: ${totalStudents}`);
 
     for (const field in students) {
-      console.log(`Number of students in ${field}: ${students[field].length}. List: ${students[field].join(', ')}`);
+      if (Object.prototype.hasOwnProperty.call(students, field)) {
+        console.log(`Number of students in ${field}: ${students[field].length}. List: ${students[field].join(', ')}`);
+      }
     }
   } catch (error) {
     console.error(error.message);
